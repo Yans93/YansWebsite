@@ -1,0 +1,377 @@
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>YANS</title>
+<meta name="description" content="YANS crée des sites web modernes et personnalisés pour les coachs sportifs, coachs de football, préparateurs physiques et professionnels du fitness : présentation des prestations, image professionnelle et nouveaux clients.">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YANS : des sites web pour coachs sportifs">
+<meta property="og:description" content="Sites web modernes et personnalisés pour coachs sportifs, coachs de football, préparateurs physiques et pros du fitness. Quatre formules au choix.">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#090b0a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/*
+  Concept : tableau d'affichage de stade. Titres condensés géants, étiquettes
+  monospace façon chronomètre, lignes de couloir de piste en filigrane.
+  Le vert électrique est réservé aux actions et aux repères importants.
+*/
+:root{
+  --ink:#090b0a;
+  --coal:#0f1311;
+  --graphite:#171c19;
+  --steel:#242a26;
+  --line:rgba(236,242,238,.1);
+  --line-strong:rgba(236,242,238,.22);
+  --paper:#f1f4f1;
+  --mute:#9aa49f;
+  --volt:#3dff7f;
+  --volt-ink:#04150a;
+  --f-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;
+}
+body{background:var(--ink);color:var(--paper)}
+</style>
+<link rel="stylesheet" href="site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"YANS","description":"Création de sites web pour coachs sportifs, coachs de football, préparateurs physiques et professionnels du fitness.","inLanguage":"fr"}</script>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l2.1 5.9L20 11l-5.9 2.1L12 19l-2.1-5.9L4 11l5.9-2.1zM19 3v4M17 5h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-euro" viewBox="0 0 24 24"><path d="M17.5 6.6A7 7 0 1 0 17.5 17.4M4 10.3h9M4 13.7h9" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M11 18.2h2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9.5L5 20v-4H4z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M8 9.5h8M8 12.5h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="12" cy="12" r="3.8" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.4" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M15.5 8.5v-2a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="YANS, retour en haut de page">YANS<i></i></a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#realisations">Réalisations</a>
+      <a href="#offres">Offres</a>
+      <a href="#pourquoi">Pourquoi YANS</a>
+      <a href="#processus">Processus</a>
+      <a href="#contact" class="btn btn-sm">Démarrer un projet</a>
+    </nav>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- ======================= HERO ======================= -->
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Sites web pour coachs</p>
+        <h1 id="h-hero">Ton coaching mérite un site <span class="hl">à la hauteur.</span></h1>
+        <p class="hero-sub">Des sites web modernes et personnalisés pour les coachs sportifs qui veulent développer leur image, présenter leurs prestations et attirer de nouveaux clients.</p>
+        <div class="cta-row">
+          <a class="btn" href="#offres">Découvrir les offres <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="#realisations">Voir les réalisations</a>
+        </div>
+        <ul class="aud" aria-label="Pour qui">
+          <li>Coachs sportifs</li><li>Coachs de football</li><li>Préparateurs physiques</li><li>Fitness &amp; musculation</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" role="img" aria-label="Illustration : aperçu d'un site de coach sportif sur ordinateur et sur téléphone">
+        <div class="browser">
+          <div class="browser-bar"><i></i><i></i><i></i><span>ton-site.fr</span></div>
+          <div class="mock">
+            <div class="mock-rings"></div><div class="mock-slash"></div>
+            <div class="mock-nav"><b>TON NOM</b><span>Séances</span><span>Tarifs</span><span class="mock-cta">Réserver</span></div>
+            <div class="mock-title">Coach<br>sportif<em>personnel</em></div>
+            <div class="mock-lines"><i></i><i></i><i></i></div>
+            <div class="mock-stats"><div><b>1:1</b><small>Séances</small></div><div><b>Suivi</b><small>Sur mesure</small></div><div><b>Tarifs</b><small>Clairs</small></div></div>
+          </div>
+        </div>
+        <div class="phone"><b>Coach<em>sportif</em></b><div class="bars"><i></i><i></i></div><div class="pill"></div><div class="cards"><i></i><i></i><i></i><i></i></div></div>
+        <div class="chip-float"><i></i>Mobile &amp; ordinateur</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= PORTFOLIO ======================= -->
+  <section class="section section--alt" id="realisations" aria-labelledby="h-work">
+    <div class="wrap">
+      <div class="s-head reveal">
+        <p class="eyebrow">Réalisations</p>
+        <h2 id="h-work">Quatre métiers, quatre univers.</h2>
+        <p class="lead">Ces sites sont des concepts de démonstration, imaginés par YANS pour montrer ce qu'un site de coach peut devenir. Aucun n'a été réalisé pour un client réel. Chacun s'ouvre dans une page complète, avec son propre design.</p>
+      </div>
+
+      <div class="works">
+        <!-- 1. Coach personnel -->
+        <article class="work reveal">
+          <a class="work-shot" href="demo-coach-perso.html" tabindex="-1" aria-hidden="true">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="480" height="300" fill="#eef1fb"/>
+              <rect width="480" height="32" fill="#fff"/>
+              <circle cx="16" cy="16" r="4" fill="#d4d9ec"/><circle cx="29" cy="16" r="4" fill="#d4d9ec"/><circle cx="42" cy="16" r="4" fill="#d4d9ec"/>
+              <text x="70" y="20" font-family="Hanken Grotesk,sans-serif" font-size="11" font-weight="800" fill="#10163a" letter-spacing="1.5">AXIOME</text>
+              <rect x="330" y="11" width="30" height="5" rx="2.5" fill="#c6cde8"/><rect x="370" y="11" width="30" height="5" rx="2.5" fill="#c6cde8"/><rect x="412" y="8" width="50" height="16" rx="8" fill="#2f46ff"/>
+              <circle cx="372" cy="180" r="104" fill="#2f46ff"/>
+              <circle cx="372" cy="180" r="76" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
+              <circle cx="372" cy="180" r="50" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
+              <rect x="318" y="206" width="108" height="46" rx="10" fill="#fff"/><rect x="330" y="218" width="52" height="6" rx="3" fill="#10163a"/><rect x="330" y="231" width="76" height="5" rx="2.5" fill="#c6cde8"/>
+              <text x="34" y="104" font-family="Hanken Grotesk,sans-serif" font-size="34" font-weight="800" fill="#10163a">Retrouve ton</text>
+              <text x="34" y="144" font-family="Hanken Grotesk,sans-serif" font-size="34" font-weight="800" fill="#2f46ff">énergie.</text>
+              <rect x="34" y="162" width="190" height="6" rx="3" fill="#c6cde8"/><rect x="34" y="176" width="140" height="6" rx="3" fill="#c6cde8"/>
+              <rect x="34" y="202" width="112" height="34" rx="17" fill="#2f46ff"/><text x="56" y="224" font-family="Hanken Grotesk,sans-serif" font-size="12" font-weight="700" fill="#fff">Réserver</text>
+              <rect x="34" y="256" width="86" height="30" rx="8" fill="#fff"/><rect x="128" y="256" width="86" height="30" rx="8" fill="#fff"/><rect x="222" y="256" width="86" height="30" rx="8" fill="#fff"/>
+            </svg>
+          </a>
+          <div class="work-body">
+            <p class="tag">Concept de démonstration</p>
+            <h3>Studio Axiome</h3>
+            <p class="spec">Coach sportif personnel</p>
+            <p class="desc">Un site lumineux et rassurant : séances individuelles, formules claires et un parcours de réservation simple à comprendre.</p>
+            <a class="btn btn-ghost" href="demo-coach-perso.html">Voir le projet <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <!-- 2. Football -->
+        <article class="work reveal">
+          <a class="work-shot" href="demo-football.html" tabindex="-1" aria-hidden="true">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="480" height="300" fill="#0b3d2a"/>
+              <g fill="#0e4a33"><rect x="0" y="0" width="60" height="300"/><rect x="120" y="0" width="60" height="300"/><rect x="240" y="0" width="60" height="300"/><rect x="360" y="0" width="60" height="300"/></g>
+              <g fill="none" stroke="#f4f7f0" stroke-opacity=".8" stroke-width="2.2">
+                <rect x="206" y="40" width="250" height="232"/><path d="M331 40v232"/><circle cx="331" cy="156" r="38"/><rect x="406" y="98" width="50" height="116"/><path d="M206 98h50v116h-50"/>
+              </g>
+              <circle cx="331" cy="156" r="3.5" fill="#f4f7f0"/>
+              <g fill="#ffd447"><circle cx="262" cy="104" r="9"/><circle cx="300" cy="206" r="9"/><circle cx="360" cy="122" r="9"/><circle cx="398" cy="186" r="9"/></g>
+              <g fill="none" stroke="#f4f7f0" stroke-width="2"><path d="M338 70l12 12M350 70l-12 12" /><path d="M390 232l12 12M402 232l-12 12"/><path d="M232 190l12 12M244 190l-12 12"/></g>
+              <g fill="none" stroke="#ffd447" stroke-width="2.2" stroke-dasharray="6 6"><path d="M272 110C300 120 330 120 350 124"/><path d="M308 200C340 190 372 190 390 186"/></g>
+              <rect x="0" y="0" width="236" height="300" fill="#08291c" fill-opacity=".86"/>
+              <text x="30" y="40" font-family="JetBrains Mono,monospace" font-size="10" fill="#ffd447" letter-spacing="2">ACADÉMIE · DÉMO</text>
+              <text x="28" y="108" font-family="Big Shoulders Display,Impact,sans-serif" font-size="74" font-weight="900" fill="#f4f7f0">ÉLAN</text>
+              <text x="28" y="168" font-family="Big Shoulders Display,Impact,sans-serif" font-size="74" font-weight="900" fill="#ffd447">FOOT</text>
+              <rect x="30" y="196" width="120" height="34" rx="6" fill="#ffd447"/><text x="46" y="218" font-family="Hanken Grotesk,sans-serif" font-size="12" font-weight="800" fill="#08291c">Réserver une séance</text>
+              <rect x="30" y="248" width="150" height="5" rx="2.5" fill="#f4f7f0" fill-opacity=".25"/><rect x="30" y="262" width="100" height="5" rx="2.5" fill="#f4f7f0" fill-opacity=".25"/>
+            </svg>
+          </a>
+          <div class="work-body">
+            <p class="tag">Concept de démonstration</p>
+            <h3>Élan Football</h3>
+            <p class="spec">Coach de football</p>
+            <p class="desc">Un univers de terrain : tableau tactique, programmes par profil de joueur et planning de la semaine d'entraînement.</p>
+            <a class="btn btn-ghost" href="demo-football.html">Voir le projet <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <!-- 3. Préparateur physique -->
+        <article class="work reveal">
+          <a class="work-shot" href="demo-preparation-physique.html" tabindex="-1" aria-hidden="true">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="480" height="300" fill="#0d141b"/>
+              <rect x="0" y="0" width="480" height="34" fill="#121b24"/>
+              <text x="22" y="22" font-family="JetBrains Mono,monospace" font-size="11" font-weight="700" fill="#ff6b35" letter-spacing="2">KINETIC_LAB</text>
+              <rect x="340" y="12" width="26" height="4" rx="2" fill="#2b3a49"/><rect x="376" y="12" width="26" height="4" rx="2" fill="#2b3a49"/><rect x="412" y="12" width="26" height="4" rx="2" fill="#2b3a49"/>
+              <text x="22" y="86" font-family="Big Shoulders Display,Impact,sans-serif" font-size="46" font-weight="900" fill="#e9eef2">PERFORMANCE</text>
+              <text x="22" y="124" font-family="Big Shoulders Display,Impact,sans-serif" font-size="46" font-weight="900" fill="#ff6b35">MESURÉE.</text>
+              <g stroke="#223140" stroke-width="1"><path d="M22 150h436M22 190h436M22 230h436M22 270h436"/></g>
+              <path d="M22 262C70 256 100 236 150 226S230 214 270 192 350 168 400 176 440 168 458 160" fill="none" stroke="#ff6b35" stroke-width="3"/>
+              <path d="M22 262C70 256 100 236 150 226S230 214 270 192 350 168 400 176 440 168 458 160V270H22Z" fill="#ff6b35" fill-opacity=".12"/>
+              <path d="M22 236C80 240 120 214 170 218S250 196 300 204 380 214 458 200" fill="none" stroke="#8fb4d6" stroke-width="2" stroke-dasharray="5 5"/>
+              <circle cx="458" cy="160" r="5" fill="#ff6b35"/>
+              <g font-family="JetBrains Mono,monospace"><rect x="330" y="52" width="128" height="62" rx="6" fill="#121b24" stroke="#223140"/><text x="344" y="74" font-size="9" fill="#7f95a8">VMA · EXEMPLE</text><text x="344" y="102" font-size="22" font-weight="700" fill="#e9eef2">17,2 km/h</text></g>
+            </svg>
+          </a>
+          <div class="work-body">
+            <p class="tag">Concept de démonstration</p>
+            <h3>Kinetic Lab</h3>
+            <p class="spec">Préparateur physique</p>
+            <p class="desc">Un site sobre et technique : protocole d'évaluation, planification de la saison et suivi des performances présentés comme un tableau de bord.</p>
+            <a class="btn btn-ghost" href="demo-preparation-physique.html">Voir le projet <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <!-- 4. Fitness & musculation -->
+        <article class="work reveal">
+          <a class="work-shot" href="demo-fitness-musculation.html" tabindex="-1" aria-hidden="true">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="480" height="300" fill="#ffe600"/>
+              <rect x="0" y="0" width="480" height="30" fill="#0a0a0a"/>
+              <text x="20" y="20" font-family="JetBrains Mono,monospace" font-size="10" font-weight="700" fill="#ffe600" letter-spacing="2">FORCE · MASSE · DISCIPLINE</text>
+              <text x="20" y="116" font-family="Big Shoulders Display,Impact,sans-serif" font-size="92" font-weight="900" fill="#0a0a0a">IRON</text>
+              <text x="20" y="196" font-family="Big Shoulders Display,Impact,sans-serif" font-size="92" font-weight="900" fill="#0a0a0a">FORGE</text>
+              <g fill="#0a0a0a">
+                <rect x="248" y="150" width="224" height="10"/>
+                <rect x="268" y="96" width="20" height="118" rx="3"/><rect x="292" y="112" width="16" height="86" rx="3"/>
+                <rect x="432" y="96" width="20" height="118" rx="3"/><rect x="412" y="112" width="16" height="86" rx="3"/>
+              </g>
+              <rect x="0" y="232" width="480" height="68" fill="#0a0a0a"/>
+              <rect x="20" y="248" width="120" height="36" fill="#ffe600"/><text x="34" y="271" font-family="Hanken Grotesk,sans-serif" font-size="13" font-weight="800" fill="#0a0a0a">REJOINS-NOUS</text>
+              <text x="170" y="271" font-family="JetBrains Mono,monospace" font-size="11" fill="#ffe600" letter-spacing="1">PROGRAMMES · PLANNING · TARIFS</text>
+            </svg>
+          </a>
+          <div class="work-body">
+            <p class="tag">Concept de démonstration</p>
+            <h3>Iron Forge</h3>
+            <p class="spec">Coach fitness et musculation</p>
+            <p class="desc">Un style brut et énergique : typographie massive, programmes par objectif et planning des séances de la semaine.</p>
+            <a class="btn btn-ghost" href="demo-fitness-musculation.html">Voir le projet <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= OFFRES ======================= -->
+  <section class="section" id="offres" aria-labelledby="h-offers">
+    <div class="wrap">
+      <div class="s-head reveal">
+        <p class="eyebrow">Les formules</p>
+        <h2 id="h-offers">Quatre formules, une seule exigence : ton image.</h2>
+        <p class="lead">Chaque formule reprend la précédente et ajoute du contenu, du design et des sections adaptées à ton activité. Choisis celle qui correspond à ton projet, on affine ensuite ensemble.</p>
+      </div>
+      <div class="offers" id="offers-grid"></div>
+      <noscript><p class="price-note">Active JavaScript pour afficher le détail des formules.</p></noscript>
+      <p class="price-note" id="price-note"></p>
+    </div>
+  </section>
+
+  <!-- ======================= POURQUOI ======================= -->
+  <section class="section section--alt" id="pourquoi" aria-labelledby="h-why">
+    <div class="wrap">
+      <div class="s-head reveal">
+        <p class="eyebrow">Pourquoi YANS ?</p>
+        <h2 id="h-why">Un site fait pour les coachs.</h2>
+      </div>
+      <div class="why">
+        <article class="why-item reveal">
+          <span class="why-ic"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg></span>
+          <h3>Modernes et personnalisés</h3>
+          <p>Ton site reflète ta spécialité, ton style et ton public. Pas de modèle copié-collé.</p>
+        </article>
+        <article class="why-item reveal">
+          <span class="why-ic"><svg class="ic" aria-hidden="true"><use href="#i-euro"/></svg></span>
+          <h3>Tarifs accessibles</h3>
+          <p>Quatre formules pensées pour les coachs indépendants, avec un prix clair avant de commencer.</p>
+        </article>
+        <article class="why-item reveal">
+          <span class="why-ic"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg></span>
+          <h3>Pensés pour le mobile</h3>
+          <p>Tes futurs clients te découvrent souvent depuis leur téléphone : le site s'y affiche proprement.</p>
+        </article>
+        <article class="why-item reveal">
+          <span class="why-ic"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg></span>
+          <h3>Un accompagnement direct</h3>
+          <p>Tu échanges directement avec la personne qui conçoit ton site, sans intermédiaire.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= PROCESSUS ======================= -->
+  <section class="section" id="processus" aria-labelledby="h-process">
+    <div class="wrap">
+      <div class="s-head reveal">
+        <p class="eyebrow">Processus de création</p>
+        <h2 id="h-process">De ton idée à la mise en ligne.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><span class="step-n">ÉTAPE 1</span><h3>Tu choisis ta formule</h3><p>Compare les quatre offres et sélectionne celle qui correspond à ton activité.</p></li>
+        <li class="step reveal"><span class="step-n">ÉTAPE 2</span><h3>Tu expliques ton activité</h3><p>Ta spécialité, tes prestations, tes objectifs et les contenus que tu peux fournir.</p></li>
+        <li class="step reveal"><span class="step-n">ÉTAPE 3</span><h3>YANS conçoit ton site</h3><p>Un site personnalisé selon ta formule, ton image et le public que tu veux toucher.</p></li>
+        <li class="step reveal"><span class="step-n">ÉTAPE 4</span><h3>Vérification avant la mise en ligne</h3><p>Le site est relu et contrôlé avec toi avant d'être publié.</p></li>
+      </ol>
+      <p class="steps-note reveal">La livraison n'est pas instantanée : les délais sont définis avec toi, selon la formule choisie et la rapidité à laquelle tu fournis tes contenus.</p>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACT ======================= -->
+  <section class="section section--alt" id="contact" aria-labelledby="h-contact">
+    <div class="wrap contact-grid">
+      <div class="contact-side reveal">
+        <p class="eyebrow">Contact et commandes</p>
+        <h2 id="h-contact">Parlons de ton site.</h2>
+        <p class="lead">Choisis ta formule, décris ton activité en quelques lignes et transmets ta demande. Tu peux aussi écrire directement sur Instagram.</p>
+        <div id="insta-slot"></div>
+        <p class="insta-note" id="insta-note"></p>
+      </div>
+
+      <form class="form reveal" id="contact-form" novalidate>
+        <div class="field">
+          <label for="f-name">Nom ou nom du coach</label>
+          <input id="f-name" name="nom" type="text" autocomplete="name" placeholder="Ex. Camille Durand" required>
+          <p class="err" id="e-name" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="f-email">Adresse e-mail</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="toi@exemple.fr" required>
+          <p class="err" id="e-email" role="alert"></p>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="f-spec">Spécialité sportive</label>
+            <select id="f-spec" name="specialite" required></select>
+            <p class="err" id="e-spec" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="f-offer">Offre souhaitée</label>
+            <select id="f-offer" name="offre" required></select>
+            <p class="err" id="e-offer" role="alert"></p>
+          </div>
+        </div>
+        <p class="hint" id="offer-hint" aria-live="polite" hidden></p>
+        <div class="field">
+          <label for="f-msg">Description du projet</label>
+          <textarea id="f-msg" name="projet" placeholder="Ton activité, ton public, ce que tu veux mettre en avant sur ton site…" required></textarea>
+          <p class="err" id="e-msg" role="alert"></p>
+        </div>
+        <button class="btn btn-block" type="submit" id="submit-btn">Envoyer ma demande <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="status" id="form-status" role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#top" aria-label="YANS, retour en haut de page">YANS<i></i></a>
+        <p>Création de sites web modernes et personnalisés pour les coachs sportifs, coachs de football, préparateurs physiques et professionnels du fitness.</p>
+      </div>
+      <div>
+        <h3>Le site</h3>
+        <ul>
+          <li><a href="#offres">Offres</a></li>
+          <li><a href="#realisations">Portfolio</a></li>
+          <li><a href="#processus">Processus</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Informations</h3>
+        <ul>
+          <li><a href="#mentions" id="legal-link">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <details class="legal" id="mentions">
+      <summary>Mentions légales</summary>
+      <div class="legal-body">
+        <div><h3>Éditeur du site</h3><p>YANS, <span data-legal="editor"></span>, <span data-legal="status"></span>.<br><span data-legal="address"></span><br>SIRET : <span data-legal="siret"></span></p></div>
+        <div><h3>Directeur de la publication</h3><p><span data-legal="publisher"></span></p></div>
+        <div><h3>Hébergeur</h3><p><span data-legal="host"></span></p></div>
+        <div><h3>Données personnelles</h3><p>Les informations saisies dans le formulaire (nom, e-mail, spécialité, offre, description du projet) servent à répondre à ta demande. Tu peux demander à les consulter, les corriger ou les supprimer en contactant YANS. Ce site n'installe pas de cookies publicitaires ni de mesure d'audience. Les polices de caractères sont chargées depuis Google Fonts.</p></div>
+        <div><h3>Propriété intellectuelle</h3><p>Les textes, le design et le code de ce site sont la propriété de YANS. Les pages de démonstration sont des concepts fictifs : les noms de marques, de coachs et les chiffres qui y figurent sont inventés et ne désignent aucun client réel.</p></div>
+        <div><h3>Prix</h3><p>Les prix sont indiqués en euros. Les modalités de paiement et les délais sont précisés avec chaque client avant le début du projet.</p></div>
+      </div>
+    </details>
+    <p class="copy">© <span id="year">2026</span> YANS. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="site-config.js"></script>
+<script src="main.js"></script>
